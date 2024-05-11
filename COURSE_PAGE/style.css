@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*
+font-family: "Open Sans", sans-serif;
+*/
+
+body{
+    background-color: #252b42;
+    margin: 0;
+}
+
+.NAVBAR{
+    /* border: 2px solid black; */
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.navbar-name{
+    width: 25%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-buttons{
+    /* border: 1px solid white; */
+    width: 75%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-buttons-1{
+    width: 60%;
+    margin: 3px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-buttons-1 a{
+    color: white;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 25px;
+    
+}
+
+.navbar-buttons-2{
+    width: 40%;
+    margin: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-buttons-2 a{
+    color: white;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 25px;
+    margin-right: 15px;
+    
+}
+
+.navbar-joinus{
+    background-color: #23A6F0;
+    border: none;
+    margin-left: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    width: 10em;
+    height: 3em;
+    border-radius: 7px;
+    font-weight: 800;
+}
+
+a:hover{
+    text-shadow: 2px 3px 5px white;
+}
+
+button:hover{
+    box-shadow: 0px 1px 10px white;
+}
+
+
+.ABOUT{
+    height:55vh;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ABOUT div{
+    margin: 10px;
+}
+
+#about-welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 20%;
+    width: 100%;
+
+    font-family: "Open Sans", sans-serif;
+    color: #23A6F0;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#about-text{
+    height: 40%;
+    width: 40%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+
+#about-about{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    width: 35%;
+    text-align: center;
+}
+
+.ABOUT button{
+    width: 12rem;
+    height: 3rem;
+    margin: 5px;
+    border-radius: 7px;
+    border: none;
+}
+
+#about-button-blue{
+    background-color: #23A6F0;
+    color: white;
+}
+
+#about-button-transparent{
+    background-color:#252b42;
+    border: 2px solid #23A6F0;
+    color: #23A6F0;
+}
+
+.CONTENT-BOX{
+    /* border: 2px solid black; */
+    height: 34vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.box{
+    background-color: white;
+    width: 20rem;
+    height: 16rem;
+    border: 1px solid white;
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.box-logo{
+    width: 20%;
+    height: 23%;
+    border-radius: 10px;
+    background-color: rgb(231, 159, 159);
+    margin: 20px
+
+}
+
+.box-title{
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    margin-left: 20px;
+    border-bottom: 3px solid rgb(231, 159, 159);
+    padding-bottom: 20px;
+    width: 60%;
+}
+
+.box-about{
+    font-family: "Open Sans", sans-serif;
+    margin: 20px;
+    text-align: left;
+    font-size: 15px;
+}
+
+#box-blue{
+    background-color: #23A6F0;
+    border-color: #23A6F0;
+}
+
+.box-logo{
+    width: 20%;
+    height: 23%;
+    border-radius: 10px;
+    background-color: rgb(231, 159, 159);
+    margin: 20px
+
+}
+
+.box-logo-blue{
+    width: 20%;
+    height: 23%;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px
+
+}
+
+.box-title-blue{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    margin-left: 20px;
+    border-bottom: 3px solid white;
+    padding-bottom: 20px;
+    width: 60%;
+}
+
+.box-about-blue{
+    font-family: "Open Sans", sans-serif;
+    margin: 20px;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+}
